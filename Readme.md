@@ -5,4 +5,12 @@ It's my script in python SQL BLIND Injection.
 ```sh
 chmod +x sqlblind.py
 ```
+Thinking to change target and we can execute 
 
+```sh
+./sqlblind.py
+```
+Or you can directly : 
+```sh
+python sqlblind.py
+```
